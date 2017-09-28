@@ -1,22 +1,24 @@
-// String concatination
+// Mixed String concatination
 
-var str1 = 'Sample String'; // String declarations 
+var num1 = 1;
+var num2 = 2;
+var num3 = num1 + num2;
 
-var str2 = 'Lol';
+var str1 = 'Sample String ';
 
-var str3 = str1 + str2; // str3 = 'Sample String Lol'
+var str2 = str1 + num1; // Concatinating a string with a number
 
-var str4 = 'I can ' + 'concatinate with +';
+var str3 = num1 + num2 + ''; // Concatinating an empty string to a sum of numbers
 
-var str5 = 'Everything is ' + str2;
+var str4 = num1.toString() + num2.toString() // Converting a number into a string and concatinating
 
-var str6 = 'Hello' + ' Hai' + ' Good Morning'; 
+var num4 = parseInt(str4) + 100; // Parsing the numbers out of a string
+
 
 // Output
 
-console.log('str1 => ' + str1);
+console.log('num1 = ' + num1 + ', num2 = ' + num2 + ', num3 = ' + num3)
 console.log('str2 => ' + str2);
-console.log('str3 => ' + str3);
-console.log('str4 => ' + str4);
-console.log('str5 => ' + str5);
-console.log('str6 => ' + str6);
+console.log('str3  number concatinated with an empty string => ' + str3);
+console.log('str4 number.toString() method => ' + str4);
+console.log('num4 parseInt => ' + num4);
