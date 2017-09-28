@@ -1,29 +1,19 @@
 // ES5
 
 // declaration 
-
 var variableOne;
-
 // --------------------------------------------------------------------------
-
 // initialization
-
 var variableTwo = "HELLO WORLD";
-
 // --------------------------------------------------------------------------
-
 // assignment
-
 variableOne = 1337;
-
 // --------------------------------------------------------------------------
-
-// console output
-
-console.log('variable 1 =>', variableOne, '\nvariable 2 =>', variableTwo);
+// console output (scanf)
+console.log('variable 1 => ' +  variableOne + '\nvariable 2 => ' + variableTwo);
+// --------------------------------------------------------------------------
 
 // if-else, for, while, do while, switch all work he same as 'C'
-
 var x = 2;
 var y = 1;
 if (x > y) {
