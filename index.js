@@ -10,7 +10,7 @@ var str4 = 'I can ' + 'concatinate with +';
 
 var str5 = 'Everything is ' + str2;
 
-var str6 = 'Hello' + ' Hai' + ' Good Morning'; 
+var str6 = 'Hello' + ' Hai' + ' Good Morning'; // Multiple concatinations
 
 // Output
 
