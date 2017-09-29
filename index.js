@@ -19,7 +19,7 @@ if (x > y) {
     console.log('%d is greater than %d', x, y);
 }
 else {
-    console.log(y + ' is greater than' + x);    
+    console.log('%d is greater than %d', y, x);
 }
 
 var i;
