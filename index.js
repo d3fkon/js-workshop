@@ -1,21 +1,30 @@
-// Mixed String concatination
+// Array declaration
+var arr = [];
 
-var num1 = 1;
-var num2 = 2;
-var num3 = num1 + num2;
+// Initiliazation
+var arr1 = [1,2,3,4,5];
 
-var str1 = 'Sample String ';
+var arr2 = [1, 'c', 'STRING', 1.1]; // No data-type barriers
 
-var str2 = str1 + num1; // Concatinating a string with a number
+// Displaying an array using console.log()
+console.log(arr2);
 
-var str4 = num1.toString() + num2.toString() // Converting a number into a string and concatinating
+// Array traversal is the same as C using a for loop
+var i;
+for (i=0; i<arr2.length; i++) { // arr2.length gives the length of the array.
+    console.log(arr2[i]);
+}
 
-var num4 = parseInt(str4) + 100; // Parsing the numbers out of a string
+/**
+ * Arrays can be inherently used as stacks. 
+ * So, push() and pop() are default built in functions on arrays
+ */
 
+var arr = [1,2,3,4,5];
+console.log('\nArray initialized =>', arr);
 
-// Output
+arr.push(100);
+console.log('\nPushed 100. Array now is =>', arr);
 
-console.log('num1 = ' + num1 + ', num2 = ' + num2 + ', num3 = ' + num3)
-console.log('str2 => ' + str2);
-console.log('str4 number.toString() method => ' + str4);
-console.log('num4 parseInt => ' + num4);
+arr.pop();
+console.log('\nPopped the last element. Array now is =>', arr);
