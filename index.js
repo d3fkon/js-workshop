@@ -9,7 +9,7 @@ var variableTwo = "HELLO WORLD";
 // assignment
 variableOne = 1337;
 
-// console output (scanf)
+// console output (printf)
 console.log('variable 1 => %s \nvariable 2 => %d', variableOne, variableTwo);
 
 // if-else, for, while, do while, switch all work he same as 'C'
