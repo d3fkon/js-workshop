@@ -14,6 +14,9 @@ var str6 = 'Hello' + ' Hai' + ' Good Morning'; // Multiple concatinations
 
 // Output
 
+// Note that the console.log() takes in a string, 
+// which can hence be concatinated like above for ease of use
+
 console.log('str1 => ' + str1);
 console.log('str2 => ' + str2);
 console.log('str3 => ' + str3);
