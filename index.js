@@ -28,3 +28,4 @@ console.log('\nPushed 100. Array now is =>', arr);
 
 arr.pop();
 console.log('\nPopped the last element. Array now is =>', arr);
+
