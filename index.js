@@ -1,32 +1,27 @@
-// Welcome to objects
+// Functions!
 
-var obj = {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 3,
-    key4: 4
+/*
+    1. The 'function' keyword is used before declaring functions.
+    2. No return type specifiers are needed.
+    3. Parameters can be of any type. No need of specifing the type.
+    4. All parameters are "PASSED BY VALUE" unless and object is used.
+    5. The function may or may not have a return value. 
+*/
+function functionName (parameters) {
+    // ...
+    var value = parameters;
+    return value;
 }
 
-console.log(obj.key1);
+var returnedValue = functionName(2);
 
-// Objects can carry any type of values
+console.log(returnedValue);
 
-var obj2 = {
-    arr : ['elem']
+
+// example functions
+
+function multiply2 (number) {
+    return number * 2;
 }
 
-console.log(obj2.arr[0]);
-
-// Objectception
-
-var obj3 = {
-    World: {
-        Asia: {
-            India: {
-                Karnataka: 'Bangalore'
-            }
-        }
-    }
-};
-
-console.log(obj3.World.Asia.India.Karnataka)
+console.log(multiply2(20));
