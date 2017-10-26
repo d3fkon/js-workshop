@@ -1,31 +1,32 @@
-// Array declaration
-var arr = [];
+// Welcome to objects
 
-// Initiliazation
-var arr1 = [1,2,3,4,5];
-
-var arr2 = [1, 'c', 'STRING', 1.1]; // No data-type barriers
-
-// Displaying an array using console.log()
-console.log(arr2);
-
-// Array traversal is the same as C using a for loop
-var i;
-for (i=0; i<arr2.length; i++) { // arr2.length gives the length of the array.
-    console.log(arr2[i]);
+var obj = {
+    key1: 'value1',
+    key2: 'value2',
+    key3: 3,
+    key4: 4
 }
 
-/**
- * Arrays can be inherently used as stacks. 
- * So, push() and pop() are default built in functions on arrays
- */
+console.log(obj.key1);
 
-var arr = [1,2,3,4,5];
-console.log('\nArray initialized =>', arr);
+// Objects can carry any type of values
 
-arr.push(100);
-console.log('\nPushed 100. Array now is =>', arr);
+var obj2 = {
+    arr : ['elem']
+}
 
-arr.pop();
-console.log('\nPopped the last element. Array now is =>', arr);
+console.log(obj2.arr[0]);
 
+// Objectception
+
+var obj3 = {
+    World: {
+        yAsia: {
+            India: {
+                Karnataka: 'Bangalore'
+            }
+        }
+    }
+};
+
+console.log(obj3.World.Asia.India.Karnataka)
