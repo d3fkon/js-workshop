@@ -1,27 +1,27 @@
-// Functions!
+// Functions as variables
 
-/*
-    1. The 'function' keyword is used before declaring functions.
-    2. No return type specifiers are needed.
-    3. Parameters can be of any type. No need of specifing the type.
-    4. All parameters are "PASSED BY VALUE" unless and object is used.
-    5. The function may or may not have a return value. 
-*/
-function functionName (parameters) {
-    // ...
+var fun1 = function (parameters) {
     var value = parameters;
     return value;
 }
 
-var returnedValue = functionName(2);
+var returnedValue = fun1("Arguments");
 
-console.log(returnedValue);
+// console.log(returnedValue);
 
+// Passing functions as parameters to other functions
 
-// example functions
-
-function multiply2 (number) {
-    return number * 2;
+var fun1 = function (param) {
+    console.log("This is fun1. And you passed: " + param);
 }
 
-console.log(multiply2(20));
+var fun2 = function (param) {
+    console.log("This is fun2. And you passed: " + param);
+}
+
+var mainFun = function (f1, f2) {
+    f1("apples");
+    f2("oranges");
+}
+
+mainFun(fun1, fun2);
