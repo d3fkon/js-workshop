@@ -21,7 +21,7 @@ console.log(obj2.arr[0]);
 
 var obj3 = {
     World: {
-        yAsia: {
+        Asia: {
             India: {
                 Karnataka: 'Bangalore'
             }
