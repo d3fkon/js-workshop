@@ -1,5 +1,3 @@
-// Handling files
+var importedFunction = require('./f2');
 
-var importedStuff = require('./f2');
-
-console.log(importedStuff);
+importedFunction('Passing a parameter from index.js')
