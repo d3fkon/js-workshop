@@ -8,6 +8,8 @@ var obj = {
     vegetables: ["onions", "tomatos"]
 }
 
-// var f1 = require(.......)
-// f1(obj)
-// same for f2
+var f1 = require('./f1');
+var f2 = require('./f2');
+
+f1(obj);
+f2(obj);
