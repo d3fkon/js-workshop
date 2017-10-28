@@ -4,10 +4,10 @@
 var variableOne;
 
 // initialization
-var variableTwo = "HELLO WORLD";
+var variableOne = "HELLO WORLD";
 
 // assignment
-variableOne = 1337;
+variableTwo = 1337;
 
 // console output (printf)
 console.log('variable 1 => %s \nvariable 2 => %d', variableOne, variableTwo);
